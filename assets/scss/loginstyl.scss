@@ -1,0 +1,266 @@
+@import "LJStyle/LJVariables";
+@import "LJStyle/LJforgotpw";
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  // font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn_language {
+  color: $dark-grey-800;
+  background-color: $white;
+  border-color: $dark-grey-800;
+  border-radius: 2px;
+  padding: 0.2rem 1.2rem 0.2rem 1.2rem;
+  line-height: 1.5;
+}
+
+.btn_primary {
+  color: $white;
+  background-color: $pink-400;
+  border-color: $pink-400;
+  width: 360px;
+  margin-top: 40px;
+
+  line-height: 1.5;
+  border-radius: .25rem;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+}
+
+.btn_primary button:hover,
+.btn_primary button:active {
+  color: $white;
+  // background-color: $pink-600;
+  border-color: $pink-600;
+}
+
+//tab
+// .nav-tabs > li > a, .nav-tabs .tab > a {
+//   background: $dark-grey-200;
+//   color: $white;
+//   border-radius: 4px;
+//   border-bottom-left-radius: 0;
+//   border-bottom-right-radius: 0;
+//   border-top: 1px solid transparent;
+
+
+.badge {
+  width: 80px;
+  height: 30px;
+  background-color: $color-badge;
+}
+
+
+.color {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+.logo {
+  width: 190px;
+}
+
+.navbarPD {
+  padding-right: 140px;
+}
+
+.header {
+  background-color: transparent;
+  width: 100%;
+  height: 80px;
+}
+
+//login
+.container_box {
+  margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+  .container_box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.box_log {
+  width: 560px;
+  padding-right: 150px;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  max-width: 430px;
+  word-wrap: break-word;
+  background-color: $white;
+  background-clip: border-box;
+  // border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+.card_header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+@media (max-width: 576px) {
+  .card_header {
+    padding: 0rem 0rem;
+    margin-bottom: 0;
+    // border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+}
+
+.card_header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card_body {
+  padding: 1.25rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.card_header_tabs {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.card_text {
+  text-decoration: none;
+  color: $blue-400;
+  border: 0;
+  background-color: #ffffff;
+  padding-top: 10px;
+  margin-left: -2px;
+}
+
+.card_text a {
+  text-decoration: none;
+  color: $blue-400;
+  border: 0;
+  background-color: none;
+}
+
+.card_text a:hover {
+  text-decoration: none;
+  color: $blue-600;
+  border: 0;
+  background-color: none;
+}
+
+.card_item {
+  padding-top: 40px;
+}
+
+.form_text {
+  display: block;
+  margin-top: 0.25rem;
+  margin-bottom: 2px;
+}
+
+.form_btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+// .form_btn {
+//   >button:hover {
+//     color: $pink-600;
+//   }
+// }
+
+.icon_social {
+  font-size: 18px;
+  padding-right: 8px;
+  color: $dark-grey-200;
+}
+
+//
+.txtn {
+  text-decoration: none;
+}
+
+//signup
+.card_remind {
+  padding-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .mobilepadding {
+    padding-top: 10px;
+  }
+}
+
+//allcontent
+.allcontentbox {
+  display: flex;
+  justify-content: center;
+  // height: 1000px;
+  padding: 20px;
+
+}
+
+.allcontentboxleft {
+  width: 446px;
+  height: 500px;
+  // background-color: yellow;
+}
+
+.allcontentboxright {
+  width: 568px;
+  height: 100%;
+  // background-color: blue;
+}
+
+@media (max-width: 768px) {
+  .allcontentbox {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .allcontentboxleft {
+    width: 0px;
+    height: 0px;
+    padding-top: -10em;
+  }
+}
+
+nav {
+  transform: none !important;
+  -webkit-transform: none !important;
+  opacity: 1 !important;
+  position: static;
+  width:auto !important;
+}
+
+#nav-home-tab, #nav-sign-tab {
+  line-height: inherit;
+}

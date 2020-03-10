@@ -1,0 +1,319 @@
+//example
+// .text-color-fontTitleSize {
+//   color: $dark-grey-800;
+//   @include font(1);
+//   font-family: "Raleway", sans-serif;
+// }
+
+.text-white {
+  color: $white;
+  @include font(4);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.text-white-M4 {
+  color: $white;
+  // font-size: 1.25rem;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.text-white-M4b {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.text-white-P1 {
+  color: $white;
+  @include font(1);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.text-white-P2 {
+  color: $white;
+  @include font(2);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.text-white-P3 {
+  color: $white;
+  @include font(3);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.text-white-p4 {
+  color: $white;
+  @include font(4);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-white-P4 {
+  color: $white;
+  @include font(4);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+} //pls track
+
+.text-white-P8 {
+  color: $white;
+  @include font(8);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.text-grey-P2 {
+  color: $dark-grey-600;
+  @include font(2);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 27px;
+}
+.text-grey-R2 {
+  color: $dark-grey-800;
+  @include font(2);
+  font-family: "Raleway", sans-serif;
+  line-height: 20px;
+}
+ 
+.text-grey-R3 {
+  color: $dark-grey-800;
+  @include font(3);
+  font-family: "Raleway", sans-serif;
+  line-height: 20px;
+}
+ 
+.text-grey-M4 {
+  color: $dark-grey-800;
+  @include font(4);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+.text-grey-P2 {
+  color: $dark-grey-800;
+  @include font(2);
+  font-family: "Poppins", sans-serif;
+  line-height: 27px;
+}
+.text-grey-P4 {
+  color: $dark-grey-800;
+  @include font(4);
+  font-family: "Poppins", sans-serif;
+  line-height: 27px;
+}
+
+.text-grey-P4b {
+  color: $dark-grey-800;
+  @include font(4);
+  font-family: "Poppins", sans-serif;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.text-grey-R6 {
+  color: $dark-grey-600;
+  @include font(4);
+  font-family: "Raleway", sans-serif;
+  line-height: 30px;
+}
+.text-grey-P4{
+  color: $dark-grey-600;
+  @include font(4);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.text-grey-P6 {
+  color: $dark-grey-600;
+  @include font(6);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.text-grey-P8 {
+  color: $dark-grey-600;
+  @include font(6);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.text-grey-12 {
+  color: $dark-grey-800;
+  @include font(1);
+  font-family: "Raleway", sans-serif;
+}
+
+.text-grey-P12 {
+  color: $dark-grey-800;
+  @include font(1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.text-grey-M12 {
+  color: $dark-grey-800;
+  @include font(1);
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+}
+
+.text-grey-P16 {
+  color: $dark-grey-800;
+  @include font(2);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.text-grey-R16 {
+  color: $dark-grey-800;
+  @include font(2);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  line-height: 8px;
+  line-height: 24px;
+}
+
+// .text-grey-R16 {
+//   color: $dark-grey-200;
+//   @include font(2);
+//   font-family: "Raleway", sans-serif;
+//   line-height: 27px;
+// }
+
+.text-greyP18 {
+  color: $dark-grey-800;
+  // @include font(3);
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 27px;
+}
+
+.text-grey-R18 {
+  color: $dark-grey-200;
+  @include font(3);
+  font-family: "Raleway", sans-serif;
+  line-height: 27px;
+}
+
+.text-grey-M20 {
+  color: $dark-grey-800;
+  @include font(3);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+// .text-grey-R3 {
+//   color: $dark-grey-200;
+//   @include font(4);
+//   font-family: "Raleway", sans-serif;
+//   line-height: 27px;
+// } 
+// same class name
+.text-grey-search{
+  color: $dark-grey-600;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.text-grey-P30 {
+  color: $dark-grey-800;
+  @include font(7);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+}
+//text blue
+.text-blue-P2 {
+  color: $blue-600;
+  @include font(2);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.text-blue-M4 {
+  color: $blue-400;
+  @include font(4);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.text-blue-P8 {
+  color: $blue-600;
+  @include font(5);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.text-blue-M8 {
+  color: $blue-600;
+  @include font(5);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  // text-shadow: black 0.1em 0.1em 0.2em
+}
+.text-blue-M6 {
+  color: $blue-600;
+  @include font(6);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  // text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.text-blue-R16 {
+  color: $blue-400;
+  @include font(2);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.text-pink-P2 {
+  color: $pink-600;
+  @include font(2);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+}
+.text-pink-P4b {
+  color: $pink-600;
+  @include font(4);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 56px;
+}
+.text-pink-P7 {
+  color: $pink-600;
+  @include font(7);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 56px;
+}

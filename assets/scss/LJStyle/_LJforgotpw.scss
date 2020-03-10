@@ -1,0 +1,109 @@
+.modal_title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+//body_box
+.body_box {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+
+//btn
+.btn_pw {
+  color: $white;
+  background-color: $pink-400;
+  border-color: $pink-400;
+  // width: 360px;
+  width: 100%;
+  margin-top: 40px;
+
+  line-height: 1.5;
+  border-radius: .25rem;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.btn_pw :hover {
+  color: $white;
+  background-color: $pink-600;
+  border-color: $pink-600;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: $white;
+  background-color: $pink-400;
+  border-color: $pink-400;
+  // width: 360px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.btn-primary button:hover {
+  color: $white;
+  background-color: $pink-600;
+  border-color: $pink-600;
+  text-decoration: none;
+}
+
+.modal_body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 0;
+}
+
+.modal_body button:hover {
+  background-color: $pink-600;
+  border: 1px solid #fefefe;
+}
+
+// //沒輸入伊媚兒
+// .modal_body button:hover {
+//   background-color: $dark-grey-200;
+//   border: 1px solid #fefefe;
+// }
+
+.close {
+  float: left;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+.modal-header .close {
+  padding: 1rem;
+  margin: -1rem 30rem -1rem auto;
+}
+
+.modal_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #fefefe;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+}

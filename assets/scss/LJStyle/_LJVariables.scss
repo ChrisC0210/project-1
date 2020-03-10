@@ -1,0 +1,71 @@
+// LJ Guideline mixed BS4.0
+//
+// Color system
+//
+//LJ color
+$blue-200: #86d9e1 !default;
+$blue-400: #6cc6cf !default;
+$blue-600: #56b2bd !default;
+$pink-200: #ffbab9 !default;
+$pink-400: #ffa8a7 !default;
+$pink-600: #fc9090 !default;
+$dark-grey-200: #a9a9a9 !default;
+$dark-grey-400: #858585 !default;
+$dark-grey-600: #707070 !default;
+$dark-grey-800: #3d3d3d !default;
+$color-badge: #ff9938;
+
+// stylelint-disable
+$white: #fefefe !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$grays: () !default;
+$grays: map-merge(("100": $gray-100,
+"200": $gray-200,
+"300": $gray-300,
+"400": $gray-400,
+"500": $gray-500,
+"600": $gray-600,
+"700": $gray-700,
+"800": $gray-800,
+"900": $gray-900), $grays);
+
+//LJ font
+// @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600|Poppins:400,600|Raleway");
+//typography
+$font: 12px 16px 18px 20px 22px 24px 30px 32px 56px;
+// $font: 0.75rem 1rem 1.125rem 1.25rem 1.4rem 1.5rem 1.9rem 2rem 2.2rem;
+
+@mixin font($index:1) {
+  font-size: nth($font, $index);
+  line-height: line-height($index);
+}
+
+@function line-height($index:1) {
+  $font-size: nth($font, $index);
+  @return (floor($font-size/ 10px) +1) *10px;
+}
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+//icon
+
+//country height use:profile, sign up page
+.custom-select{
+  display: inline-block;
+  width: 100%;
+  height: calc(2.25rem + 9px);
+  @media (min-width: 1000px) {
+    height: calc(2.25rem + 6px);
+  }
+}
