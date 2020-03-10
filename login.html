@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lejounery-The Learning Adviser</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/LJ.ico" />
+  <link rel="stylesheet" href="/css/base.min.css">
+  <link rel="stylesheet" href="/css/loginstyl.min.css">
+
+</head>
+
+<body>
+  <!-- header start -->
+  <div>
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom" style="position:sticky; top:0px;">
+        <a class="navbar-brand" href="./">
+          <img src="img/Logo_Lejourney_600px.png" class="lj_logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nv_trans" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 nv_mobile nv_color">
+            <li class="nav-item text-white-M4 header-item">
+              <a class="nav-link" href="./login.html">Log in</a>
+            </li>
+            <li class="nav-item text-white-M4 header-item">
+              <a class="nav-link" href="./login.html">Sign up</a>
+            </li>
+          </form>
+        </div>
+      </nav>
+  </div>
+  <!-- header end -->
+  <!-- content start -->
+  <div class="container d-flex justify-content-center box container_box  allcontentbox" style="margin-top:12;">
+    <!-- login img start -->
+    <div class="allcontentboxleft">
+      <div><img src="/img/svg/img_login.svg" alt="login"></div>
+    </div>
+    <!-- <div class="col-6 box_log">
+    <div class="changeImg"><img src="/img/svg/img_login.svg" alt="login"></div>
+  </div>
+  <!-- login img end -->
+    <div class="allcontentright">
+      <div class="col d-flex align-content-center">
+        <div class="cards d-flex flex-column bd-highlight mb-3 card_header">
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active nav-link active text-grey-P16 tabb login" id="nav-home-tab"
+                data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" src="/img/svg/img_login.svg">Login</a>
+              <a class="nav-item nav-link nav-link text-grey-P16" id="nav-sign-tab" data-toggle="tab" href="#nav-sign"
+                role="tab" aria-controls="nav-sign" aria-selected="false" src="/img/svg/img_signup.svg">Sign up</a>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <!-- login start -->
+            <div class="tab-pane fade show active tab-content card_body" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <form class="form-signin">
+                <div class="form-group">
+                  <label for="inputEmail" class="sr-only">Email address</label>
+                  <input type="email" class="form-control text-greyP18" id="inputEmail" aria-describedby="emailHelp"
+                    placeholder="Email Address" required autofocus>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword" class="sr-only">Password</label>
+                  <input type="password" class="form-control text-greyP18" id="inputPassword" aria-describedby="PasswordHelp"
+                    placeholder="Password" min="6" pattern=".{6,}" title="Please enter six or more characters" required>
+                </div>
+                <!-- login form end -->
+                <div id="ForgotPWHelp" class="card_text text-blue-R16" style="border:0; background-color:none;">
+                  <!-- Button trigger modal -->
+                  <button class="card_text text-blue-R16" style="border:0; background-color:none;" type="button"
+                    data-toggle="modal" data-target="#exampleModal">
+                    Forgot password?
+                  </button>
+                </div>
+                <!-- Modal start -->
+                <div class="modal containor" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header modal_header">
+                        <button type="button" class="close close_btn" style="border:0; background-color: #ffffff;"
+                          data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body body_box modal_body">
+                        <div class="modal-title text-grey-P30 modal_title" style=" border:0; background-color:none;" id="ForgotPwLabel">Forgot
+                          password?</div>
+                        <p class="text-grey-M16"> Enter your email address and we'll send a link to reset your
+                          password.
+                        </p>
+                        <form class="form-signin">
+                          <div class="form-group">
+                            <label for="inputEmail" class="sr-only">Email address</label>
+                            <input type="email" class="form-control text-greyP18" id="inputEmail2" aria-describedby="emailHelp"
+                              placeholder="e.g. Lejounery@edallianz.com" required autofocus>
+                          </div>
+                        </form>
+                        <div class="d-flex justify-content-center buttonClicked">
+                          <button type="button" class="btn btn-primary form_btn btn_pw text-white-p4" style="color:#fefefe; text-decoration: none;">Request
+                            new password</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal end -->
+                </div>
+                <div id="creatNew" class="card_text text-grey-R16">&nbsp;Don't have an account?
+                  <span class="text-blue-R16">
+                    <a href="#nav-sign"> Create New Account</a>
+                  </span>
+                </div>
+                <div class="btn_hover">
+                  <button class="form_btn btn_primary loginNow" style="color:#fefefe; text-decoration: none;" type="submit">LOGIN
+                    NOW
+                  </button>
+                </div>
+              </form>
+            </div>
+            <!-- login end -->
+            <!-- Sign up start -->
+            <div class="tab-pane fade" id="nav-sign" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <!-- <div class="cards d-flex flex-column bd-highlight mb-3"> -->
+              <!-- lol -->
+              <div class="tab-pane fade show active tab-content card_body" id="nav-home" role="tabpanel"
+                aria-labelledby="nav-home-tab">
+                <form class="form-signin ">
+                  <div class="form-group">
+                    <label for="inputEmail" class="sr-only">Email address</label>
+                    <input type="email" class="form-control text-greyP18" id="inputEmail" aria-describedby="emailHelp"
+                      placeholder="Email Address" required autofocus>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input type="password" class="form-control text-greyP18" id="inputPassword" aria-describedby="PasswordHelp"
+                      placeholder="Password" min="6" pattern=".{6,}" title="Please enter six or more characters"
+                      required>
+                  </div>
+                  <!-- <div class="form-group">
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input type="password" class="form-control text-greyP18" id="inputPassword" aria-describedby="PasswordHelp"
+                      placeholder="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number."
+                      required>
+                  </div> -->
+                  <div class="form-group">
+                    <input type="password" class="form-control text-greyP18" id="InputRePassword" aria-describedby="RePasswordHelp"
+                      placeholder="Re-enter Password" min="6" pattern=".{6,}" title="Please enter six or more characters"
+                      required>
+                  </div>
+                  <div class="form-group">
+                    <input type="FirstName" class="form-control text-greyP18" id="InputFirstName" aria-describedby="FirstNameHelp"
+                      placeholder="First Name" title="Please enter your first name" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="LastName" class="form-control text-greyP18" id="InputLastName" aria-describedby="LastNameHelp"
+                      placeholder="Last Name" title="Please enter your last name" required>
+                  </div>
+                  <div class="form-row">
+                    <!-- <div class="dropdown mr-1 col">
+                    <div class="dropdown-toggle btn_country text-grey-M12" type="button" id="dropdownMenuButton"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">+ ---
+                    </div>
+                    <div id="dropdownMenuButtonClick" class="dropdown-menu dropdown-content dropdown-menu-left"
+                      aria-labelledby="dropdownMenuOffset">
+                      <a class="dropdown-item text-grey-M12" href="#">+65 Singapore</a>
+                      <a class="dropdown-item text-grey-M12" href="#">+886 Taiwan</a>
+                      <a class="dropdown-item text-grey-M12" href="#">+62 Indonesia</a>
+                    </div>
+                  </div> -->
+                    <div class="col-5">
+                      <select class="custom-select mr-sm-3 btn_country text-grey-M12"" id=" inlineFormCustomSelect">
+                        <option selected>+ ---</option>
+                        <option value="1">+65 Singapore</option>
+                        <option value="2">+886 Taiwan</option>
+                        <option value="3">+62 Indonesia</option>
+                      </select>
+                    </div>
+                    <div class="col-7">
+                      <input type="number" class="form-control text-greyP18 mobilepadding" id="
+                      inputMobile"
+                        aria-describedby="mobileHelp" placeholder="Your Mobile" pattern="/^[0]?[789]\d{9}$/" required>
+                    </div>
+                  </div>
+                  <div id="agree" class="card_text text-blue-R16">
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">I agree the terms of use</label>
+                    </div>
+                  </div>
+                  <!-- sigu up form end -->
+                  <button class="form_btn btn_primary loginNow" style="color:#fefefe; text-decoration: none;" type="submit">SIGNUP
+                    NOW
+                  </button>
+                  <div class="card_remind text-grey-R16">* Check your email to verify and complete your signup!
+                  </div>
+                </form>
+              </div>
+              <!-- lol -->
+            </div>
+            <!-- Sign up end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- row end -->
+  <!-- content end -->
+  <!-- footer start -->
+  <p class="line"></p>
+  <div class="container d-flex justify-content-between footerHidden">
+    <p class="line"></p>
+    <div class="footerBox">
+      <div class="text-grey-P12">
+        <a href="#">COMPANY</a>
+      </div>
+      <ul class="text-grey-M12">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Press</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+      </ul>
+    </div>
+    <!-- box1 -->
+    <div class="footerBox">
+      <div class="text-grey-P12">
+        <a href="#">EXPLORE</a>
+      </div>
+      <ul class="text-grey-M12">
+        <li>
+          <a href="#">Marketplace</a>
+        </li>
+        <li>
+          <a href="#">Reviews</a>
+        </li>
+        <li>
+          <a href="#">Blog </a>
+        </li>
+        <li>
+          <a href="#">App </a>
+        </li>
+      </ul>
+    </div>
+    <!-- box2 -->
+    <div class="footerBox">
+      <div class="text-grey-P12">
+        <a href="#">CORPORATE</a>
+      </div>
+      <ul class="text-grey-M12">
+        <li>
+          <a href="#">Partnerships</a>
+        </li>
+        <li>
+          <a href="#">List with Us</a>
+        </li>
+        <li>
+          <a href="#">Privacy</a>
+        </li>
+        <li>
+          <a href="#">Terms</a>
+        </li>
+      </ul>
+    </div>
+    <!-- box3 -->
+    <div class="footerBox">
+      <div class="text-grey-P12">
+        <a href="#">SUPPORT</a>
+      </div>
+      <ul class="text-grey-M12">
+        <li>
+          <a href="#">Partnerships</a>
+        </li>
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+        <li class="icon_social">
+          <a href="#">
+            <i class=" icon-globe"></i>
+          </a>
+          <a href="#">
+            <i class="icon-facebook-squared"></i>
+          </a>
+          <a href="#">
+            <i class=" icon-wechat"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- box4 -->
+    <div class="footerBox d-flex">
+      <div class="dropdown mr-1">
+        <div class="btn dropdown-toggle btn_language text-grey-M12" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          English
+        </div>
+        <div id="dropdownMenuButtonClick" class=" dropdown-menu dropdown-content dropdown-menu-left" aria-labelledby="dropdownMenuOffset">
+          <a class="dropdown-item text-grey-M12" href="#">English</a>
+          <!-- <a class="dropdown-item text-grey-M12" href="#">中文</a> -->
+        </div>
+      </div>
+    </div>
+    <!-- box5 -->
+  </div>
+  <p class="line"></p>
+  <div class="footer">
+    <footer>
+      <div class="copyright text-grey-12">© Copyright Edallianz Pte Ltd. All Rights Reserved</div>
+    </footer>
+  </div>
+  <!-- footer end -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+  </script>
+  <script src="/js/all.js"></script>
+
+</body>
+
+</html>

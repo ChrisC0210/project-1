@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lejounery-The Learning Adviser</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/LJ.ico" />
+  <link rel="stylesheet" href="/css/base.min.css">
+  <link rel="stylesheet" href="/css/classDetailesStyle.min.css">
+
+  <body class="container" style="margin:10rem auto">
+      <!-- class_detail_right start -->
+  <!-- class_detail_right start -->
+  <div class="class_detail_right" style="box-shadow: 0px -4px 24px rgba(0, 0, 0, 0.3)">
+      <div class="text-pink-P2"><a href="#">
+          <i class="icon-left-open"></i>Back to last step
+        </a></div>
+      <div class="text-grey-P4b">Enter Learner's Information
+      </div>
+      <div class="text-blue-P2 btn_mrg">Learner's Name</div>
+      <div class="form-group">
+        <input type="Learner" class="form-control p-1 mr-sm-3 text-greyP18" style="border: solid 1px gray;" id="InputLearner"
+          aria-describedby="LearnerNameHelp" placeholder="e.g. Eddi" title="Please enter your first name" required>
+      </div>
+      <div class="text-blue-P2 btn_mrg">Date of Birth</div>
+      <input onclick="PickDate()" type="date" id="yourDate" value="2018-10-26" class="p-1 custom_select mr-sm-3 text-greyP18"
+        style="border: solid 1px gray;">
+      <!-- <select class="p-1 custom-select mr-sm-3 text-greyP18" style="border: solid 1px gray;" id="ChooseClass">
+        <option selected> YYYY/MM/DD</option>
+      </select> -->
+      <br><br>
+      <div class="text-blue-P2 btn_mrg">Special Note</div>
+      <div class="text-greyP18">
+        <textarea name="test" id="" cols="34" rows="10"></textarea>
+        <!-- <select class="p-1 custom-select mr-sm-3 text-greyP18" style="border: solid 1px gray;" id="ChooseTime">
+      </select> -->
+      </div>
+      <div>
+        NOT A ROBOT CHECK BTN
+        <form action="?" method="POST">
+          <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+          <!-- <br />
+          <input type="submit" value="Submit"> -->
+        </form>
+      </div>
+      <button class="p-2 form_btn btn_primary_ClassDetails" style="color:#fefefe; text-decoration: none;" type="submit">
+        Proceed to Summary & Payment
+      </button>
+    </div>
+      <!-- class_detail_right end -->
+
+      <div class="col col-span-3">
+          <!-- class_detail_right start -->
+          <div class="class_detail_right" style="box-shadow: 0px -4px 24px rgba(0, 0, 0, 0.3)">
+            <div class="badge_box badge_text">SALE</div>
+            <div class="text-pink-P7">SGD $280.00</div>
+            <div class="text-blue-P2 btn_mrg">Select the Location</div>
+            <select class="p-1 custom-select mr-sm-3 text-greyP18" style="border: solid 1px gray;" id="SelectLocation">
+              <option selected> Location </option>
+              <option value="1"> Singapore</option>
+              <option value="2"> Taiwan</option>
+              <option value="3"> Indonesia</option>
+            </select>
+            <br><br>
+            <div class="text-blue-P2 btn_mrg">Choose the Preferred Class</div>
+            <select class="p-1 custom-select mr-sm-3 text-greyP18" style="border: solid 1px gray;" id="ChooseClass">
+              <option selected> Preferred Class</option>
+              <option value="1"> 1 Admission SGD $45.00</option>
+              <option value="2"> 2 Admission SGD $55.00</option>
+              <option value="3"> 3 Admission SGD $65.00</option>
+            </select>
+            <br><br>
+            <!-- <p class="line"></p> -->
+            <div class="text-blue-P2 btn_mrg">Pick the Date and Time</div>
+            <select class="p-1 custom-select mr-sm-3 text-greyP18" style="border: solid 1px gray;" id="ChooseTime">
+              <option value="1">Sat 20 Oct 2018 02:00pm-04:00pm</option>
+              <option value="1">Sat 21 Oct 2018 02:00pm-04:00pm</option>
+              <option value="1">Sat 22 Oct 2018 02:00pm-04:00pm</option>
+            </select>
+            <button class="p-2 form_btn btn_primary_ClassDetails" style="color:#fefefe; text-decoration: none;"
+              type="submit">
+              NEXT <i class="icon-eddi-foot"></i>
+            </button>
+          </div>
+          <!-- class_detail_right end -->
+        </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
